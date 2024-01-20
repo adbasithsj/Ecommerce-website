@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-color: #E3E3E3;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+    color: beige;
+}
+#showcase {
+    background: url('mens-clothes-bg-img.jpeg') no-repeat center/cover;
+    width: 100%;   
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    
+}
+h1{
+    width: 50%;
+    color: #62320C;
+    margin-top: 20vh;
+    margin-left: 10vh;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 20px #f8f8f8;
+}
+p{
+    width: 50%;
+    color: black;
+    text-align: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: larger;
+    line-height: 2rem;
+    text-shadow: 0 0 20px #f8f8f8;
+}
+/* Clothes */
+.clothes{
+    margin: 5vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+.clothes div{
+    margin: 1rem;
+}
+.clothes img{
+    
+    height: 200x;
+    width: 200px;
+}
+figcaption{
+    font-size: 0.9rem;
+    color: #62320C;
+}
+.btn-shopping{
+    margin-top: 0.5rem;
+    color: white;
+    background-color: orangered;
+    border: 0;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border-radius: 3rem;
+}
+.btn-shopping:hover{
+    text-decoration: underline;
+}
+
+.btn-buynow{
+    background-color: rgb(13, 150, 224);
+}
+.clothes div:hover{
+    border: 0.5px solid #62320C;
+}
+.clothes-items{
+    padding: 2px;
+}
+.head-title{
+    font-family: 'Trebuchet MS';
+    color: #62320C;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+/* Footwear   */
+.footwear{
+    margin: 5vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+.footwear div{
+    margin: 1rem;
+}
+.footwear img{
+    
+    height: 250px;
+    width: 250px;
+}
+
+.footwear div:hover{
+    border: 0.5px solid #62320C;
+}
+.footwear-items{
+    padding: 2px;
+}
+/* watches   */
+.watches{
+    margin: 5vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+.watches div{
+    margin: 1rem;
+}
+.watches img{
+    
+    height: 185px;
+    width: 140px;
+}
+
+.watches div:hover{
+    border: 0.5px solid #62320C;
+}
+.watches-items{
+    padding: 2px;
+}
